@@ -10,11 +10,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         showMessage("Hello Sami!")
+
     }
 
     private fun showMessage(text: String) {
         System.out.println("msg: "+text)
     }
 
+    private fun sum(a: Int, b: Int) : Int =  a + b
 
 }
