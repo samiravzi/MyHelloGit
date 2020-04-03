@@ -10,7 +10,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         showMessage("Hello Sami from Maryam :********** !")
-
     }
 
     private fun showMessage(text: String) {
