@@ -8,5 +8,13 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        showMessage("Hello Sami!")
     }
+
+    private fun showMessage(text: String) {
+        System.out.println("msg: "+text)
+    }
+
+
 }
