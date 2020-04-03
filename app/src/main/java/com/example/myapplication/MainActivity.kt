@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        showMessage("Hello Sami from Maryam:*!")
+        showMessage("Hello Sami from Maryam for second time:*!")
 
     }
 
